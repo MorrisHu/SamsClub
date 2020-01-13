@@ -1,0 +1,128 @@
+.floor-title {
+    margin: 30px 0;
+}
+.floor-title h2 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.shopping-list {
+    height: 295px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: 30px;
+    .sign {
+        position: relative;
+        width: 240px;
+        color: #fff;
+        float: left;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        .sign-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            .title {
+                display: block;
+                font-size: 24px;
+                padding: 0 20px;
+                line-height: 25px;
+                margin-bottom: 10px;
+                margin-top: 30px;
+                color: #fff;
+                font-weight: bold;
+                height: 25px;
+                &:hover {
+                    color: #fff;
+                }
+            }
+            h4 {
+                padding: 0 20px;
+                font-size: 18px;
+                font-weight: normal;
+                height: 24px;
+            }
+        }
+        .tags {
+            width: 240px;
+            overflow: hidden;
+            position: absolute;
+            left: 0;
+            top: 223px;
+            z-index: 10;
+            li {
+                float: left;
+                width: 50%;
+                height: 24px;
+                text-align: center;
+                a {
+                    padding: 0 14px;
+                    color: #eee;
+                    font-size: 12px;
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .prod-box {
+        margin-left: 240px;
+        overflow: hidden;
+        position: relative;
+    }
+    .scroll-box {
+        width: 1200px;
+        .item {
+            width: 240px;
+            float: left;
+            position: relative;
+            a {
+                display: block;
+                margin: 12px;
+            }
+        }
+        .i-img {
+            width: 216px;
+            height: 216px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .i-title {
+            font-size: 14px;
+            padding: 5px 8px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .i-tags-mark {
+            position: relative;
+            padding-left: 60px;
+            .jsd-tag {
+                position: absolute;
+                left: 0px;
+                top: 4px;
+                width: 56px;
+                height: 22px;
+                background: url(http://image.samsclub-estore.com/front-homepage/sam/img/global/icon_jsd.png);
+            }
+        }
+        .i-price {
+            display: block;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            em {
+                font-size: 12px;
+            }
+        }
+    }
+}

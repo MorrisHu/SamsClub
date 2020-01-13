@@ -1,0 +1,49 @@
+.banner {
+    width: auto;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.banner-pics {
+    overflow: hidden;
+    width: 100%;
+    li {
+        z-index: 0;
+        opacity: 0;
+    }
+    .active {
+        z-index: 1;
+        opacity: 1;
+    }
+    img {
+        width: 1500px;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        margin-left: -750px;
+    }
+}
+.banner-trig {
+    position: absolute;
+    bottom: 6px;
+    width: 100%;
+    text-align: center;
+    li {
+        background-color: #fff;
+        opacity: .9;
+        padding: 8px 20px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 1px;
+        cursor: pointer;
+        a:hover {
+            color: #333;
+        }
+    }
+    .cur {
+        background: #004b8d;
+        a {
+            color: #fff;
+        }
+    }
+}

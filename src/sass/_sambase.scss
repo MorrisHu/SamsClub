@@ -1,0 +1,34 @@
+body, body a {
+    color: #333;
+    transition: color .3s ease;
+    text-decoration: none;
+}
+a:hover {
+    color: #0069aa;
+    text-decoration: none;
+}
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 "Helvetica Neue", "Lucida Grande", "Lantinghei SC", "Open Sans", "Microsoft YaHei","WenQuanYi Micro Hei";
+}
+img {
+    vertical-align: top;
+}
+.global-center {
+    width: 1200px;
+    margin: 0 auto;
+}
+.clear {
+    *zoom: 1;
+    &::after {
+        content: '';
+        height: 0;
+        font-size: 0;
+        display: block;
+        visibility: hidden;
+        clear: both;
+    }
+}
