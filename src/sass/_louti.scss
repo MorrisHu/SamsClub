@@ -1,0 +1,61 @@
+.loutinav {
+    position: fixed;
+    width: 60px;
+    top: 50%;
+    margin-top: -174px;
+    left: calc((100% - 1200px) / 2 - 70px);
+    li {
+        position: relative;
+        width: 28px;
+        height: 38px;
+        line-height: 19px;
+        font-size: 14px;
+        color: #fff;
+        padding: 10px 16px;
+        transition: 0.2s;
+        background: rgb(0, 105, 170);
+        z-index: 100;
+        cursor: pointer;
+        .lt-bg {
+            position: absolute;
+            top: -1px;
+            left: 0;
+            right: 0;
+            bottom: -1px;
+            transition: 0.2s;
+            background: transparent;
+            z-index: 101;
+        }
+        .lt-txt {
+            position: relative;
+            z-index: 102;
+        }
+        &:not(:last-child):after {
+            position: absolute;
+            display: inline-block;
+            width: 30px;
+            height: 1px;
+            left: 50%;
+            bottom: 0;
+            margin-left: -15px;
+            background: white;
+            content: "";
+        }
+        &:hover {
+            .lt-bg {
+                background-color: #f1f1f1;
+            }
+            .lt-txt {
+                color: #004b8d;
+            }
+        }
+        &.active {
+            .lt-bg {
+                background-color: #f1f1f1;
+            }
+            .lt-txt {
+                color: #004b8d;
+            }
+        }
+    }
+}

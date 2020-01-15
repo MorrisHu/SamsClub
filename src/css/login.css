@@ -1,0 +1,377 @@
+/* line 5, G:/Tools_Pro/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+input {
+    margin: 0;
+    padding: 0;
+}
+
+/* line 22, G:/Tools_Pro/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+    line-height: 1;
+}
+
+/* line 24, G:/Tools_Pro/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol,
+ul {
+    list-style: none;
+}
+
+/* line 26, G:/Tools_Pro/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* line 28, G:/Tools_Pro/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+/* line 30, G:/Tools_Pro/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q,
+blockquote {
+    quotes: none;
+}
+/* line 103, G:/Tools_Pro/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    content: "";
+    content: none;
+}
+
+/* line 32, G:/Tools_Pro/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+    border: none;
+}
+
+/* line 116, G:/Tools_Pro/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+body,
+body a {
+    color: #333;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+a:hover {
+    color: #0069aa;
+    text-decoration: none;
+}
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 "Helvetica Neue", "Lucida Grande", "Lantinghei SC", "Open Sans", "Microsoft YaHei",
+        "WenQuanYi Micro Hei";
+}
+img {
+    vertical-align: top;
+}
+.global-center {
+    width: 1200px;
+    margin: 0 auto;
+}
+.clear {
+    *zoom: 1;
+}
+.clear::after {
+    content: "";
+    height: 0;
+    font-size: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+    font-style: normal;
+}
+
+.login-bg {
+    background: #fff;
+}
+.login-top-bg {
+    background: #f8f8f8;
+}
+.login-top {
+    width: 190px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.logo-box {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.login-tit {
+    margin-top: 30px;
+    border-top: 1px solid #b3b3b3;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+}
+.login-tit em {
+    position: relative;
+    top: -15px;
+    background: #f8f8f8;
+    padding: 0 20px;
+    line-height: 30px;
+}
+
+.regist-form-wrap {
+    padding: 30px 0;
+    border-top: 1px solid #eee;
+}
+.regist-form-wrap input {
+    box-sizing: content-box;
+}
+.regist-form-wrap h4 {
+    padding: 25px 0;
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 20px;
+}
+.regist-form-wrap .regist-form-box {
+    width: 442px;
+    margin: 0 auto;
+}
+.regist-form-wrap .regist-form-box .regist-form-tips {
+    margin-bottom: 32px;
+}
+.regist-form-wrap .regist-form-box .regist-form-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+.regist-form-wrap .regist-form-box .ipt-text {
+    width: 440px;
+    height: 36px;
+    border: 1px solid #dcdcdc;
+    border-radius: 2px;
+    line-height: 36px;
+    text-indent: 10px;
+    font-size: 14px;
+}
+.regist-form-wrap .regist-form-box .ipt-text:focus {
+    border: 1px solid #00abdd;
+}
+.regist-form-wrap .regist-form-box .tips-box-wrong {
+    display: none;
+}
+.regist-form-wrap .regist-form-box .tips-box-default,
+.regist-form-wrap .regist-form-box .tips-box-wrong {
+    position: absolute;
+    top: 38px;
+    color: #aaa;
+    text-indent: 10px;
+    line-height: 32px;
+}
+.regist-form-wrap .regist-form-box .verification-item {
+    border: 0 none;
+}
+.regist-form-wrap .regist-form-box .ipt-verification {
+    float: left;
+    width: 335px;
+}
+a.pic-verification {
+    position: relative;
+    float: right;
+    width: 93px;
+    height: 36px;
+    overflow: hidden;
+    border: 1px solid #dcdcdc;
+}
+a.pic-verification img {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+a.pic-verification .refresh-code {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 95px;
+    height: 38px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+}
+a.pic-verification em {
+    margin-right: 5px;
+}
+.regist-form-wrap .regist-form-box .tips-box-wrong {
+    display: none;
+}
+
+
+.regist-form-wrap .regist-form-box .verification-phone .phone-verification-btn,
+.regist-form-wrap .regist-form-box .verification-phone .resend-btn {
+    float: right;
+    width: 140px;
+    height: 36px;
+    border: 1px solid #eee;
+    background-color: #f7f7f7;
+    line-height: 36px;
+    text-align: center;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #666;
+}
+.regist-form-wrap .regist-form-box .verification-phone .resend-btn {
+    background-color: #eee;
+    color: #ccc;
+}
+.regist-form-wrap .regist-form-box .regist-form-tips {
+    margin-bottom: 32px;
+}
+.regist-form-wrap .regist-form-box .verification-phone .ipt-verification {
+    width: 290px;
+}
+.submit-btn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #006aaf;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+}
+.wx-submit-btn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    background: url(https://security.samsclub.cn/front-passport/passport/images/sam/icon-wechat.png) center no-repeat;
+    border: 1px #12b401 solid;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+}

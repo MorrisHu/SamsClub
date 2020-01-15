@@ -1,0 +1,120 @@
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="http://image.samsclub-estore.com/front-homepage/samglobal/images/favicon.ico"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0">
+    <title>山姆会员商店-注册</title>
+
+    <script>
+        var SAM_CAPTCHA_HOST = "https://security.samsclub.cn";
+        var SAM_PASSPORT_HOST = "https://security.samsclub.cn";
+    </script>
+    <link rel="stylesheet" type="text/css"
+        href="css/login_reg.css">
+</head>
+
+<body>
+    <div class="global-center">
+        <div class="login-bg login-bg-regist">
+            <!--顶部logo标题区域-->
+            <div class="login-top-bg">
+                <div class="login-top">
+                    <div class="logo-box"><a href="http://www.samsclub.cn"><img
+                                src="https://security.samsclub.cn/front-passport/passport/images/sam/logo.png"></a>
+                    </div>
+                    <h3 class="login-tit"><em>欢迎注册</em></h3>
+                </div>
+            </div>
+            <!--注册表单 -->
+            <div class="regist-form-wrap">
+                <!--  <h4>注册</h4>-->
+                <div class="member-tab clear">
+                    <a class="fl cur" href="javscript:;">
+                        <em class="iconfont"></em>
+                        <b>暂无会员卡</b>
+                        <span><i class="iconfont"></i></span>
+                    </a>
+                </div>
+
+                <div class="regist-form-box">
+
+                    <!--  会员卡注册 展示 begin-->
+
+                    <div class="user-name-item regist-form-item regist-form-tips">
+                        <!--错误的时候加class : regist-form-wrong -->
+                        <!-- input[0] username -->
+                        <input type="text" placeholder="用户名" class="ipt-text" id="username" autocomplete="off">
+                        <!--默认提示-->
+                        <p class="tips-box-default">4-20位字符，可由中文、英文、数字</p>
+                        <!--错误提示（错误提示通过父节点加class： regist-form-wrong来显示）-->
+                        <p class="tips-box-wrong">请输入正确的用户名！/请输入用户名！</p>
+                    </div>
+                    <div class="regist-form-item regist-form-tips">
+                        <!-- input[0] email -->
+                        <input type="email" placeholder="邮箱地址" class="ipt-text" id="email" autocomplete="off">
+                        <p class="tips-box-default">请输入常用邮箱，可用作登录账户，接受订单通知和找回密码之用</p>
+                        <p class="tips-box-wrong">请输入正确的邮箱地址！/请输入邮箱地址！</p>
+                    </div>
+                    <div class="regist-form-item regist-form-tips">
+                        <!-- input[0] password -->
+                        <input type="password" placeholder="设置密码" class="ipt-text ipt-passoword" id="password"
+                            autocomplete="off">
+                        <p class="tips-box-default">6-20位字符，可由大小写英文、数字或符号“-”“_”组成</p>
+                        <p class="tips-box-wrong">密码要求为6-20位字符！/请输入密码！</p>
+                        <div class="password-strength password-strength-default">
+                            密码强度：<em></em><em></em><em></em><em></em></div>
+                        <div class="password-strength password-strength-l">密码强度：<em></em><em></em><em></em><em></em>
+                        </div>
+                        <div class="password-strength password-strength-m hide">
+                            密码强度：<i></i><span></span><em></em><em></em></div>
+                        <div class="password-strength password-strength-h hide">
+                            密码强度：<i></i><span></span><u></u><em></em></div>
+                        <div class="password-strength password-strength-a hide">密码强度：<i></i><span></span><u></u><s></s>
+                        </div>
+                    </div>
+                    <div class="regist-form-item regist-form-tips">
+                        <!-- input[0] password2 -->
+                        <input type="password" placeholder="确认密码" class="ipt-text" id="password2" autocomplete="off">
+                        <p class="tips-box-wrong"></p>
+                    </div>
+
+                    <div class="regist-form-item regist-form-tips">
+                        <!-- input[0] phone -->
+                        <input type="tel" placeholder="您的手机号" class="ipt-text" id="phone" autocomplete="off">
+                        <p class="tips-box-wrong"></p>
+                    </div>
+                    <div class="regist-form-item regist-form-tips verification-item clear" 
+                        id="validCodeDiv">
+                        <!-- input[0] calidCode -->
+                        <input type="text" placeholder="验证码" class="ipt-text ipt-verification" id="validCode"
+                            autocomplete="off">
+                        <p class="tips-box-default">字母不区分大小写</p>
+                        <a href="javascript:;" class="pic-verification">
+                            <div class="randValidCode" width="93" height="36" style="line-height: 36px; text-align: center;">1234</div>
+                            <span class="refresh-code"><em></em>换一张</span>
+                        </a>
+                        <p class="tips-box-wrong"></p>
+                    </div>
+                    <!--同意信息-->
+                    <div class="agreement">
+                        <input type="checkbox" id="feed-checkbox" checked="checked">
+                        <label for="feed-checkbox">订阅优惠信息</label>
+                    </div>
+                    <div class="agreement">
+                        <input type="checkbox" id="agreement-checkbox" checked="checked">
+                        <label for="agreement-checkbox">我已阅读并同意<a href="javascript:;" class="blue-link"
+                                target="_blank">《山姆网站使用条款》</a></label>
+                    </div>
+                    <div class="btn-box">
+                        <a href="javascript:;" class="submit-btn" id="register-btn">提交</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
